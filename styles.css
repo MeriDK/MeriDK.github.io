@@ -1,0 +1,78 @@
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  height: 5%;
+  font-size: 30px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 5%;
+  font-size: 35px;
+}
+
+/* Set a style for b */
+b {
+	font-size: 60px;
+}
+
+
+p {
+	text-align: center;
+	font-size: 25px;
+}
+
+
+/* Set a style for h1 */
+h1 {
+	font-size:120px;
+	text-align: center;
+	font-family: monospace;
+	background: #9b00fa;
+	color: white;
+	margin: 15px;
+	padding: 25px;
+}
+
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+
+/* Add padding to containers */
+.container {
+  margin-top: 30%;
+  align-items: center;
+  padding: 10px;
+}
+
+
+.down {
+	bottom: 0;
+	text-align: center;
+}
+
+
+.separator {
+	padding: 30px 30px 30px 30px;
+}
+
+
+body {
+	margin: 0 auto;
+	height: 98%;
+}
