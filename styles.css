@@ -1,78 +1,52 @@
-/* Full-width inputs */
-input[type=text], input[type=password] {
+.title {
+  font-size: 120px;
+  text-align: center;
+  font-family: monospace;
+  background: #780096;
+  color: white;
+  margin: 15px 7px 0 7px;
+  padding: 25px;
+}
+.title_margin-bottom {
+  margin-bottom: 300px;
+}
+
+.login__button {
+  background: black;
+  color: white;
+  cursor: pointer;
+  height: 5%;
+  font-size: 35px;
+  text-align: center;
   width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  border: none;
+  padding: 14px;
+}
+.login__padding {
+  padding: 30px;
+}
+.login__sign-up {
+  text-align: center;
+  font-size: 25px;
+  margin: 35px;
+}
+
+.credit-form {
+  padding: 30px;
+}
+.credit-form__label {
+  font-size: 60px;
+  font-weight: bold;
+}
+.credit-form__field {
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
-  height: 5%;
-  font-size: 30px;
-}
-
-/* Set a style for all buttons */
-button {
-  background-color: black;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
   width: 100%;
   height: 5%;
-  font-size: 35px;
+  font-size: 30px;
+  padding: 12px 20px;
+  margin: 8px 0;
 }
 
-/* Set a style for b */
-b {
-	font-size: 60px;
-}
-
-
-p {
-	text-align: center;
-	font-size: 25px;
-}
-
-
-/* Set a style for h1 */
-h1 {
-	font-size:120px;
-	text-align: center;
-	font-family: monospace;
-	background: #9b00fa;
-	color: white;
-	margin: 15px;
-	padding: 25px;
-}
-
-
-/* Add a hover effect for buttons */
-button:hover {
-  opacity: 0.8;
-}
-
-
-/* Add padding to containers */
-.container {
-  margin-top: 30%;
-  align-items: center;
-  padding: 10px;
-}
-
-
-.down {
-	bottom: 0;
-	text-align: center;
-}
-
-
-.separator {
-	padding: 30px 30px 30px 30px;
-}
-
-
-body {
-	margin: 0 auto;
-	height: 98%;
-}
+/*# sourceMappingURL=app.component.css.map */
