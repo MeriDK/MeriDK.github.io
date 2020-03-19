@@ -1,43 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-    		<meta charset="UTF-8">
-		<script
-			src="https://code.jquery.com/jquery-3.4.1.min.js"
-			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-			crossorigin="anonymous">
-		</script>
-		
-		<link rel="stylesheet"
-			type="text/css"
-			href="bootstrap.css"
-		/>
-
-		<link rel="stylesheet"
-			type="text/css"
-			href="styles.css"
-		/>
-	</head>
-
-	<body>
-		<h1>Childify</h1>
-	
-		<div class="container">
-			<div class="separator">
-				<label for="uname"><b>Username</b></label>
-				<input type="text" placeholder="Enter Username" name="uname" required>
-			</div>
-			
-			<div class="separator">
-				<label for="psw"><b>Password</b></label>
-				<input type="password" placeholder="Enter Password" name="psw" required>
-			</div>
-			
-			<div class="separator">
-				<button type="submit">☠️ Login ☠️</button>
-			</div>
-		</div>
-		
-		<p>Don’t have an account? <a href="#">Sign Up</a></p>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <title>Chil5</title>
+    <link rel="stylesheet"
+          type="text/css"
+          href="app.component.css"/>
+</head>
+<body>
+    <h1 class="title title_margin-bottom">Childify</h1>
+    <div class="login">
+        <form class="credit-form">
+            <label class="credit-form__label">Username</label>
+            <input class="credit-form__field" type="text" placeholder="Enter Username">
+        </form>
+        <form class="credit-form">
+            <div class="credit-form__label">Password</div>
+            <input class="credit-form__field" type="password" placeholder="Enter Password">
+        </form>
+        <div class="login__padding">
+            <button class="login__button">☠️ Login ☠️</button>
+        </div>
+        <div class="login__sign-up">
+            Don't have an account? <a href="#">Sign up</a>
+        </div>
+    </div>
+</body>
 </html>
